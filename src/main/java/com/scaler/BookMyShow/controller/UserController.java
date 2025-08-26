@@ -5,6 +5,8 @@ import com.scaler.BookMyShow.dto.UserSignUpRequestDTO;
 import com.scaler.BookMyShow.dto.UserSignUpResponseDTO;
 import com.scaler.BookMyShow.models.User;
 import com.scaler.BookMyShow.service.UserService;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

@@ -8,15 +8,19 @@ import com.scaler.BookMyShow.repository.ShowRepository;
 import com.scaler.BookMyShow.repository.ShowSeatRepository;
 import com.scaler.BookMyShow.repository.TicketRepository;
 import com.scaler.BookMyShow.repository.UserRepository;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.processing.Generated;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class TicketServiceImpl implements TicketService{
 
     @Autowired
